@@ -1,0 +1,23 @@
+{
+  "name": "JSONPlaceholder Fake API",
+  "description": "Free fake API for testing and prototyping.",
+  "tags": [
+      "sebastienlevert",
+      "fake",
+      "placeholder",
+      "json"
+  ],
+  "apis": [
+      {
+          "name": "JSONPlaceholder Fake API",
+          "description": "Free fake API for testing and prototyping.",
+          "baseUrl": "https://jsonplaceholder.typicode.com",
+          "properties": [
+              {
+                  "type": "x-openapi",
+                  "url": "openapi.yaml"
+              }
+          ]
+      }
+  ]
+}
