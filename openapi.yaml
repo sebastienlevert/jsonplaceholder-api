@@ -32,6 +32,7 @@ paths:
   /posts:
     get:
       description: Get posts
+      operationId: list-posts
       parameters:
       - name: userId
         in: query
